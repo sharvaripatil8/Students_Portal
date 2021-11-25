@@ -1,0 +1,89 @@
+@import url(https://cdn.rawgit.com/carlosrocha/react-data-components/v1.0.0/css/table-twbs.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.abc{
+  background-image: url("image.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  }
+
+.def{
+  width:35%;
+  background-color: "grey";
+  margin:auto;
+  margin-top: 10px;
+}
+.ghi{
+   /* border:2px solid black; */
+   /* color:#00cbcc; */
+}
+.d-none{
+  display:none;
+}
+.d-block{
+  display:block;
+}
+.modalbg{
+  /* width:100vw; */
+  /* height:100vh; */
+  /* background-color:rgba(200,200,200); */
+  /* position:fixed; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  
+  
+}
+.modalcontainer{
+  width:500px;
+  min-height:200px;
+  border-radius:12px;
+  background-color:white;
+  box-shadow:rgba(0,0,0,0.35)  0px 5px 15px;
+  display:flex;
+  flex-direction:column;
+  padding:25px;
+  justify-content:center;
+
+  /* flex:20%; */
+}
+.modalcontainer .body{
+  flex:50%;
+  display:flex;
+  justify-content:center;
+  font-size:1.7rem;
+  text-align:center;
+  margin-bottom: 5px;
+}
+.closebutton{
+  display:flex;
+  justify-content: flex-end;
+  
+}
+.closebutton button{
+  background-color: transparent;
+  border:none;
+  font-size: 25px;
+  cursor:pointer;
+}
+.data{
+  background-color: transparent;
+  border:none;
+  font-size: 25px;
+  cursor:pointer;
+  margin: auto;
+
+  
+}
